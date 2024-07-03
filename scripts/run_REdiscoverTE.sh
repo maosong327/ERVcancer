@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Extract fastq files from TCGA BAM file
-bam=/home/public/Project/TCGA/2.READ/db82542f-db4b-4e59-8555-1765713e32cf/6a29d5a3-a6a7-4bf2-b0f8-973fa4bc1ce0_gdc_realn_rehead.bam
+# bam=/home/public/Project/TCGA/2.READ/db82542f-db4b-4e59-8555-1765713e32cf/6a29d5a3-a6a7-4bf2-b0f8-973fa4bc1ce0_gdc_realn_rehead.bam # for test
+bam=$1
 base=$(basename $bam)
 sample=${base/_gdc_realn_rehead.bam/}
 
