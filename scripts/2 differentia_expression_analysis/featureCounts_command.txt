@@ -1,0 +1,9 @@
+# Program:featureCounts v2.0.0; Command:
+"featureCounts" 
+"-M" 
+"-a" "UCSC.hg38.repeats.gtf" 
+"-T" "20" 
+"BRCA/7fc479f3-e127-4f88-962c-9c4d627da3f1/43957563-bd37-4069-9003-373a17279d62_gdc_realn_rehead.bam" 
+"-g" "gene_id" 
+"-o" "7fc479f3-e127-4f88-962c-9c4d627da3f1.counts" 
+"--fraction"
